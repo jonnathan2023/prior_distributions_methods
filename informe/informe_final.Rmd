@@ -1,1 +1,149 @@
+---
+title: ""
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+    number_sections: false
+    keep_tex: false
+    includes:
+      in_header: preamble.tex
+fontsize: 11pt
+geometry: "top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm"
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo      = FALSE,
+  message   = FALSE,
+  warning   = FALSE,
+  fig.align = "center",
+  fig.pos   = "H",
+  out.width = "82%"
+)
+```
+
+<!-- ══════════════════════════════════════════════════════ PORTADA ══════ -->
+
+\begin{titlepage}
+\centering
+
+{\Large\bfseries UNIVERSIDAD NACIONAL AGRARIA LA MOLINA}
+
+\vspace{0.15cm}
+{\large\bfseries FACULTAD DE ECONOMÍA Y PLANIFICACIÓN}\\[0.15cm]
+{\large\bfseries DEPARTAMENTO DE ESTADÍSTICA E INFORMÁTICA}
+
+\vspace{0.8cm}
+\includegraphics[width=5.5cm]{logo.png}
+\vspace{0.8cm}
+
+{\large\bfseries Trabajo de investigación:\\[0.15cm]
+ Métodos para hallar la distribución a priori}
+
+\vspace{1.0cm}
+{\normalsize\bfseries Grupo 1:}
+
+\vspace{0.5cm}
+\begin{tabular}{lc}
+\hline
+\textbf{Integrante} & \textbf{Código} \\
+\hline
+Pedraza Laboriano, Jonnathan Jesús  &   20231505  \\
+name         &  IDcode   \\
+name         &  IDcode   \\
+name         &  IDcode   \\
+\hline
+\end{tabular}
+
+\vspace{1.0cm}
+{\normalsize
+\textbf{Curso:} Estadística Bayesiana
+
+\vspace{0.3cm}
+\textbf{Docente:} Carlos López de Castilla Vasquéz
+}
+
+\vfill
+{\normalsize
+\textbf{La Molina - Lima - Perú}\\[0.15cm]
+\textbf{2026}
+}
+\end{titlepage}
+\newpage
+<!-- ═══════════════════════════════════ Listas de índices ══════════════════ -->
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+
+<!-- ═══════════════════════════════════ Contenido ══════════════════ -->
+
+# Preámbulo
+
+csdssdss
+
+# Marco Teórico
+
+csdsdsdsdsd
+
+## Método 1: [Nombre del Método]
+
+### Fundamento teórico
+
+### Escenarios de aplicación idónea
+
+### Pros y contras analíticos
+
+## Método 2: [Nombre del Método]
+
+### Fundamento teórico
+
+### Escenarios de aplicación idónea
+
+### Pros y contras analíticos
+
+## Método 3: [Nombre del Método]
+
+### Fundamento teórico
+
+### Escenarios de aplicación idónea
+
+### Pros y contras analíticos
+
+## Método 4: [Nombre del Método]
+
+### Fundamento teórico
+
+### Escenarios de aplicación idónea
+
+### Pros y contras analíticos
+
+# Aplicaciones Prácticas
+
+## Modelo de Bernoulli
+
+## Modelo normal con varianza conocida.
+
+## Modelo exponencial
+
+## Modelo de libre elección
+
+
+# Cierre
+
+## Sintesís
+
+## Conclusiones
+
+<!-- ═══════════════════════════ REFERENCIAS ═══════════════════════════════ -->
+
+# Fuentes/Referencias Bibliográficas
+
+
+\setlength{\parindent}{0em}
+\setlength{\leftskip}{0em}
+
+<!-- ══════════════════════════════ ANEXOS ═════════════════════════════════ -->
+
+# Anexos

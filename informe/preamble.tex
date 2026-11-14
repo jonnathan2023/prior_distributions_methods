@@ -1,0 +1,40 @@
+% ── Codificación y fuentes ────────────────────────────────────────────────────
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+
+
+% ── Idioma ────────────────────────────────────────────────────────────────────
+\usepackage[spanish,es-nodecimaldot]{babel}
+
+% ── Imágenes ──────────────────────────────────────────────────────────────────
+\usepackage{graphicx}
+
+% ── Float control (H specifier) ───────────────────────────────────────────────
+\usepackage{float}
+
+% ── Tablas ────────────────────────────────────────────────────────────────────
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+
+% ── Hipervínculos ─────────────────────────────────────────────────────────────
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+
+% ── Encabezado y pie de página ────────────────────────────────────────────────
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textit{Distribuciones a priori}}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ── Espaciado de párrafo ──────────────────────────────────────────────────────
+\usepackage{setspace}
+\setstretch{1.15}
+
+% ── Portada sin encabezado ────────────────────────────────────────────────────
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+}
